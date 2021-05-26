@@ -20,6 +20,18 @@ public class Ex05 {
 			System.out.print("임금은 " + wage + " 원 입니다.");
 		}
 		
+		/*
+		int time = sc.nextInt();
+		int wage = (time-8)*(int)(10000*1.5)+80000;
+		
+		if(time<=8) {
+			System.out.print("임금은 " + time * 10000 + " 원 입니다.");
+		}
+		else {
+			System.out.print("임금은 " + wage + " 원 입니다.");
+		}
+		*/
+		
 		sc.close();
 
 	}
